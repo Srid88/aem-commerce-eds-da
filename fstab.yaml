@@ -1,0 +1,7 @@
+mountpoints:
+  /:
+    url: https://content.da.live/Srid88/aem-commerce-eds-da/
+    type: markup
+
+folders:
+  /products/: /products/default
