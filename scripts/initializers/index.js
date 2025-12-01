@@ -45,7 +45,7 @@ const setupAemAssetsImageParams = () => {
 export default async function initializeDropins() {
   const init = async () => {
     // Set Customer-Group-ID header
-    events.on('auth/group-uid', setCustomerGroupHeader, { eager: true });
+    //events.on('auth/group-uid', setCustomerGroupHeader, { eager: true });
 
     // Set auth headers on authenticated event
     events.on('authenticated', setAuthHeaders, { eager: true });
